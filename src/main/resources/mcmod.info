@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unlimitedchiselworks_tfc1",
+  "name": "Unlimited Chisel Works - TFC1 Compat",
+  "description": "TerraFirmaCraft 1 compatibility for Unlimited Chisel Works.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://charset.asie.pl/",
+  "updateUrl": "https://asie.pl/files/minecraft/update/unlimitedchiselworks_tfc1.json",
+  "authorList": ["asie"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
