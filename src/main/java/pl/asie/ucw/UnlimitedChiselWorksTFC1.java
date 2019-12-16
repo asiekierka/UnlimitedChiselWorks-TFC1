@@ -21,8 +21,10 @@ package pl.asie.ucw;
 
 import net.dries007.tfc.api.registries.TFCRegistries;
 import net.dries007.tfc.api.types.Rock;
+import net.dries007.tfc.api.types.RockCategory;
 import net.dries007.tfc.api.types.Tree;
 import net.dries007.tfc.objects.blocks.stone.BlockRockVariant;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
@@ -33,27 +35,25 @@ import java.lang.reflect.Field;
 		version = "${version}"
 )
 public class UnlimitedChiselWorksTFC1 {
-	private static Rock defaultRockObject;
+	private static Rock defaultRockType;
 
 	static void patchRockField(BlockRockVariant from, BlockRockVariant to) {
 		try {
 			Field rockField = BlockRockVariant.class.getDeclaredField("rock");
 			rockField.setAccessible(true);
 			rockField.set(to, from.getRock());
-			to.setHardness(from.getRock().getRockCategory().getHardness()).setResistance(from.getRock().getRockCategory().getResistance());
+			to.setHardness(from.getRock().getRockCategory().getHardness() * 0.75F).setResistance(from.getRock().getRockCategory().getResistance());
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
 	}
 
 	static Rock getDefaultRockObject() {
-		if (defaultRockObject == null) {
-			for (Rock rock : TFCRegistries.ROCKS) {
-				defaultRockObject = rock;
-				break;
-			}
+		if (defaultRockType == null) {
+			RockCategory rockCategory = TFCRegistries.ROCK_CATEGORIES.iterator().next();
+			defaultRockType = new Rock(new ResourceLocation("unlimitedchiselworks_tfc1:unpatched_type"), rockCategory, false);
 		}
 
-		return defaultRockObject;
+		return defaultRockType;
 	}
 }

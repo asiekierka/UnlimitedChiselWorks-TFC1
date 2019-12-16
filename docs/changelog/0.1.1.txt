@@ -1,0 +1,4 @@
+Bugs fixed:
+
+* Fixed incorrect block hardness/explosion resistance values.
+* Fixed UCW blocks overriding cave-in rock type conversion maps.
