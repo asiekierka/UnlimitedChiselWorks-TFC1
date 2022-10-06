@@ -1,0 +1,20 @@
+{
+  "modid": ["chisel", "tfctech"],
+  "blocks": [
+    {
+      "from": {
+        "state": "tfc:wood/planks/hevea"
+      },
+      "mode": "plank",
+      "through": {
+        "block": "chisel:planks-oak",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:planks#variant=oak"
+      }
+    }
+  ]
+}
