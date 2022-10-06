@@ -176,8 +176,11 @@
         "iterate": [
           "variation"
         ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
       }
-	},
+    },
     {
       "from": {
         "state": "tfc:bricks/travertine"
