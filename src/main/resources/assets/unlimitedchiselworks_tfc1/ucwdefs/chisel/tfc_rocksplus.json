@@ -1,0 +1,1301 @@
+{
+  "modid": ["chisel", "tfc_rocksplus"],
+  "blocks": [
+    {
+      "from": {
+        "state": "tfc:bricks/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:bricks/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1StoneBrick",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/arkose"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/arkose"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blaimorite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blaimorite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/blueschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/blueschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/boninite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/boninite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/carbonatite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/carbonatite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/cataclasite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/cataclasite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/foidolite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/foidolite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/greenschist"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/greenschist"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/jaspillite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/jaspillite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/mylonite"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/mylonite"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/travertine"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/travertine"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "state": "tfc:cobble/wackestone"
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC1Cobblestone",
+      "overlay": {
+        "state": "tfc:smooth/wackestone"
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    }
+  ]
+}
